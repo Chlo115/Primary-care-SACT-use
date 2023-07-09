@@ -29,6 +29,9 @@ source ("Functions/get_openprescribing_data.R")
 ## FOR NOW - here is a quick list
 codelist <-  openSafely_listR("user/polc1410/cancer-drugs/")
 
+# Before looping delete any existing object called op_data
+if (exists("op_data")) { rm(op_data) }
+
 # Loop through the code list...
 
 for (code in codelist$code) {

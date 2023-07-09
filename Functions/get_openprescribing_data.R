@@ -2,7 +2,8 @@
 # it will then return that data, formatted in a 'tibble' with the format:
 #
 # Drug_name [string], BNF_code[string], Items (No of prescriptions issued that month)[numeric],
-# Quantity (No of tablets etc issued in total)[numeric], Cost[numeric], Month [date]
+# Quantity (No of tablets etc issued in total)[numeric], Cost[numeric], Month [date],
+# OrgID (Organisation ODS code)[string], Org_name (Oragnisation name)[string]
 
 # Required packages
 require(tidyverse)
@@ -18,7 +19,7 @@ bnf_code <- "0407020AD"
 get_openprescribing_data <- function(bnf_code,
                                      drug_name = "-", # A drug name if one is provided
                                      api_endpoint = "https://openprescribing.net/api/1.0/", # creates a default if none specified when function called
-                                     api_path = "spending/?code=" #default
+                                     api_path = "spending_by_sicbl/?code=" #default
                                      ) {
 
     # Build the url to query the API
@@ -41,7 +42,8 @@ get_openprescribing_data <- function(bnf_code,
     data %>%
         mutate(Drug_name = drug_name, .before="items") %>%
         mutate(BNF_code = bnf_code, .before="items") %>%
-        rename(Items = items, Quantity = quantity, Cost = actual_cost, Month = date) %>%
+        rename(Items = items, Quantity = quantity, Cost = actual_cost, Month = date,
+               OrgId = row_id, Org_name = row_name) %>%
         # set the Moth to be a date
         mutate(Month = as.Date(Month))-> data
 
