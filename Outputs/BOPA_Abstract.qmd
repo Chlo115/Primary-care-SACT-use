@@ -51,6 +51,10 @@ The data-set being accessed is freely available to anyone who chooses to access 
 
 There were a total of `r total_items` ocurences of SACT being dispensed in Primary Care in England between 2019 and 2022, with a total expenditure of `r scales::dollar(total_cost, prefix="£", big.mark=",")`.
 
+```{r}
+print(fig1)
+```
+
 ## Discussion
 
 Our work identifies a worrying number of instances of dispensing oral SACT within Primary Care. The reasons for this cannot be determined from the publicly accessible data. It is not possible to determine what safety checks were initiated by either the prescribing or dispensing team to verify the suitability of the prescription. Furthermore, the work does not identify if there were further occurrences of prescribing which were stopped by intervention by community pharmacists.
