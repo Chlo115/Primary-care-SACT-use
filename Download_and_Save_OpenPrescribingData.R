@@ -9,6 +9,7 @@ require(httr)
 require(rvest)
 require(jsonlite)
 require(glue)
+require(NHSDataDictionaRy)
 
 # Load some functions to read the data.  Functions are snippets of code that are
 # re-used multiple times. You can pass pre-defined variables to functions
@@ -22,18 +23,20 @@ source ("Functions/get_openprescribing_data.R")
 # get_openprescribing_data("0801030D0", "Capecitabine")
 # returns a tibble with data for capecitabine
 
-# We need to repeat that process for each drug we are intersted in, and combine them together
+# We need to repeat that process for each drug we are interested in, and combine them together
 
 ## TO-DO - get the actual list we are interested in.
 ## FOR NOW - here is a quick list
-codelist <- tibble(bnf_code = c("0801030D0", "0801050AA", "0801050CB"),
-                   drug = c("Capecitabine", "Imatinib", "Palbociclib"))
+codelist <-  openSafely_listR("user/polc1410/cancer-drugs/")
+
+# Before looping delete any existing object called op_data
+if (exists("op_data")) { rm(op_data) }
 
 # Loop through the code list...
 
-for (code in codelist$bnf_code) {
+for (code in codelist$code) {
     # get the data for this drug and save as drug_result
-    drug_result <- get_openprescribing_data(code, unique(codelist$drug[codelist$bnf_code == code]))
+    drug_result <- get_openprescribing_data(code, unique(codelist$term[codelist$code == code]))
 
     if (!exists("op_data")) {
         # if op_data doesn't exist, create it from drug_result
