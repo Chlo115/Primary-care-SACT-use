@@ -49,7 +49,7 @@ The data-set being accessed is freely available to anyone who chooses to access 
 
 <!--# Significant service improvement and relevance. ALL members would be able to apply this work -->
 
-There were a total of `r total_items` ocurences of SACT being dispensed in Primary Care in England between 2019 and 2022, with a total expenditure of `r scales::dollar(total_cost, prefix="£", big.mark=",")`.
+There were a total of `r total_items` occurrences of SACT being dispensed in Primary Care in England between 2019 and 2022, with a total expenditure of `r scales::dollar(total_cost, prefix="£", big.mark=",")`.
 
 ```{r}
 print(fig1)

@@ -15,16 +15,16 @@ total_items <- sum(op_data$Items, na.rm = TRUE)
 total_cost <- sum(op_data$Cost, na.rm = TRUE)
 
 op_data %>% 
-  group_by(Month) %>% 
+  group_by(Quarter=quarter(Month, type="date_first")) %>% 
   summarise(Items=sum(Items),Cost=sum(Cost)) %>% 
-  ggplot(aes(x=Month,y=Cost))+
-  #geom_col(  )+
-  geom_line(aes(y=Cost))-> p1
+  #mutate(Quarter = as.character(Quarter))  %>%
+  ggplot(aes(x=Quarter,y=Cost))+
+  geom_line()-> p1
 
 op_data %>% 
-  group_by(Month) %>% 
+  group_by(Quarter=quarter(Month,type="date_first")) %>% 
   summarise(Items=sum(Items),Cost=sum(Cost)) %>% 
-  ggplot(aes(x=Month,y=Items))+
+  ggplot(aes(x=Quarter,y=Items))+
   geom_col(  )-> p2
   #geom_line(aes(y=Cost))
 
