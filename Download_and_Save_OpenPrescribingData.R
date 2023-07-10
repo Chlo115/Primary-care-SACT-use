@@ -23,7 +23,7 @@ source ("Functions/get_openprescribing_data.R")
 # get_openprescribing_data("0801030D0", "Capecitabine")
 # returns a tibble with data for capecitabine
 
-# We need to repeat that process for each drug we are intersted in, and combine them together
+# We need to repeat that process for each drug we are interested in, and combine them together
 
 ## TO-DO - get the actual list we are interested in.
 ## FOR NOW - here is a quick list

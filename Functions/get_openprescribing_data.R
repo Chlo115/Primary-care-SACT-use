@@ -3,7 +3,7 @@
 #
 # Drug_name [string], BNF_code[string], Items (No of prescriptions issued that month)[numeric],
 # Quantity (No of tablets etc issued in total)[numeric], Cost[numeric], Month [date],
-# OrgID (Organisation ODS code)[string], Org_name (Oragnisation name)[string]
+# OrgID (Organisation ODS code)[string], Org_name (Organisation name)[string]
 
 # Required packages
 require(tidyverse)
