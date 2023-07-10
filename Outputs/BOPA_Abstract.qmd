@@ -1,0 +1,56 @@
+---
+title: "Prescribing of Systemic Anti-Cancer Therapies (SACT) through Primary Care in England"
+author: "Waterson, Chloe; Polwart, Calum"
+format: html
+editor: visual
+bibliography: references.bib
+---
+
+<!--#  Sentences in these blocks are from the marking scheme for maximum points (10 points each section. Need 18 to accept)-->
+
+<!--# You will be allowed a maximum of 500 words, excluding references, in the abstract boxes. The abstract can contain a maximum of 1 table or figure. It is suggested that the abstract is prepared in Word first and a word count performed as the electronic submission software will not accept more than 500 words -->
+
+<!--# Format of abstract: An abstract should start with an introduction to the background of the investigation and a clear statement of the aims/objectives of the work. A statement of the methods used should follow including, for example,  numbers of subjects in the study and means of collection of data. Results should be clearly stated with, if appropriate, statistical support. The abstract should end with a discussion/conclusion. In general, the abstract should be informative and contain as much detail as possible. Note that references should be in Vancouver style. A maximum of 5 references will be allowed. -->
+
+## Introduction
+
+Prescribing of Systemic Anti-Cancer Therapy (SACT) should be undertaken exclusively by prescribers with specialist training [@academy_of_medical_royal_colleges_achieving_2015]. Booth *et al* [-@booth_oral_2018] reported that up to 90% of doctors in a hospital setting had difficulty identifying SACT medicines, which may pose a risk. The same difficulty may exist in primary care, causing SACT to inadvertently be prescribed by a patient's General Practitioner (GP) or other members of the care team
+
+## Aims / Objectives
+
+<!--#  Aims or objectives given are clear, concise and SMART -->
+
+To create a openy accessible list of oral SACT which would not be expected to be routinely be prescribed in Primary Care.
+
+To quantify on how many occasions in the last 4 years SACT has been prescribed and dispensed in a Primary Care setting in England.
+
+To report the financial expenditure associated with SACT dispensing in Primary Care, during the same tie period.
+
+To describe any trend in the incidence of Primary Care prescribing of SACT over time.
+
+## Method
+
+<!--# Methodology fully explained and appropriate for objectives  -->
+
+We developed an openly accessible code list(##REF) of all oral SACT medicines that would not routinely be prescribed for non-cancer indications, developed using the World Health Organisation (WHO) Anatomical Therapeutic Chemical (ATC) Classification[@world_health_organisation_whocc_2023] "L01" as a basis for medicines selection. This code list was used to search primary care dispensing activity from the NHS in England through the OpenPrescribing Application Programming Interface (API)[@bennett_institute_for_applied_data_science_university_of_oxford_openprescribingnet_2023] to obtain dispensing data from the previous 5 years. Descriptive statistics have been applied.
+
+The data-set being accessed is freely available to anyone who chooses to access it, containing only full anomymous data. No ethical approval was therefore required.
+
+## Result
+
+<!--# Results and/or outcomes reported, related to all aims/objectives and discussed/justified fully and critically -->
+
+<!--# Wholly original, new evidence OR new methodology -->
+
+<!--# Significant service improvement and relevance. ALL members would be able to apply this work -->
+
+## Discussion
+
+Our work identifies a worying number of instances of dispensing oral SACT within Primary Care. The reasons for this can not be determined from the publicly accessible data. It is not possible to determine what safety checks were initiated by either the prescribing or dispensing team to verify the suitability of the prescription. Furthermore, the work does not identify if there were further occurrences of prescribing which were stopped by intervention by community pharmacists.
+
+Our open access code list may provide a useful resource for NHS Primary Care Networks to search for any episodes of prescribing locally and review the reasons for this. We encourage all teams nationally to review their systems of work to determine if adequate safeguards are in place to prevent inadvertent prescribing in Primary Care.sum(op
+
+## References
+
+::: {#refs}
+:::
