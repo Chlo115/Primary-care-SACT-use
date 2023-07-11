@@ -1,7 +1,12 @@
 ---
 title: "Prescribing of Systemic Anti-Cancer Therapies (SACT) through Primary Care in England"
 author: "Waterson, Chloe; Polwart, Calum"
-format: html
+format: 
+  html:
+    citeproc: false
+    filters: 
+      - "../_extensions/andrewheiss/wordcount/citeproc.lua"
+      - "../_extensions/andrewheiss/wordcount/wordcount.lua"
 editor: visual
 bibliography: references.bib
 ---
@@ -13,8 +18,13 @@ bibliography: references.bib
 <!--# Format of abstract: An abstract should start with an introduction to the background of the investigation and a clear statement of the aims/objectives of the work. A statement of the methods used should follow including, for example,  numbers of subjects in the study and means of collection of data. Results should be clearly stated with, if appropriate, statistical support. The abstract should end with a discussion/conclusion. In general, the abstract should be informative and contain as much detail as possible. Note that references should be in Vancouver style. A maximum of 5 references will be allowed. -->
 
 ```{r}
-#readRDS("../Data/OpenPrescribing.RDS") ->op_data
-#source("../analyse_openprescribing_data.R")
+#| echo: false
+#| message: false
+#| warning: false
+#| error: false
+#| include: false
+readRDS("../Data/OpenPrescribing.RDS") ->op_data
+source("../analyse_openprescribing_data.R")
 ```
 
 ## Introduction
@@ -49,9 +59,15 @@ The data-set being accessed is freely available to anyone who chooses to access 
 
 <!--# Significant service improvement and relevance. ALL members would be able to apply this work -->
 
-There were a total of `r total_items` occurrences of SACT being dispensed in Primary Care in England between 2019 and 2022, with a total expenditure of `r scales::dollar(total_cost, prefix="£", big.mark=",")`.
+There were a total of `r formatC(total_items, big.mark=",")` occurrences of SACT being dispensed in Primary Care in England between 2019 and 2022, with a total expenditure of `r scales::dollar(total_cost, prefix="£", big.mark=",")`.
+
+The most frequently prescribed drugs were: `r paste(frequency_of_drugs$Drug_name[1:5], collapse = ", ")`. The highest costs were: `r paste(paste0(scales::dollar(high_cost_drugs$Cost[1:5],big.mark=",", prefix="£"), " (",high_cost_drugs$Drug_name[1:5], ")"), collapse = ", ")`.
+
+On `r sum(single_tablet$Quantity)` occasions a single dose of SACT was dispensed.
 
 ```{r}
+#| echo: false
+
 print(fig1)
 ```
 

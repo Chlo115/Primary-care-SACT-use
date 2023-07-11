@@ -12,7 +12,7 @@ require(httr)
 require(glue)
 
 # Set API endpoint and parameters
-bnf_code <- "0407020AD"
+bnf_code <- "0801010B0AAADAD"
 
 
 # Function to fetch data from API
@@ -38,6 +38,11 @@ get_openprescribing_data <- function(bnf_code,
         # convert to a tibble (a table format of data in columns)
         as_tibble() -> data  #save to object called data
 
+    #check if any data was returned
+    if(length(data)==0){
+      return()
+    }else {
+    
     # add the drugname and bnfcode as columns and rename columns
     data %>%
         mutate(Drug_name = drug_name, .before="items") %>%
@@ -51,6 +56,7 @@ get_openprescribing_data <- function(bnf_code,
 
     # return the tibble as the result of the function
     return(data)
+    }
 }
 
 

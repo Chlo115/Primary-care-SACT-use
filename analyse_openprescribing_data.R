@@ -29,3 +29,22 @@ op_data %>%
   #geom_line(aes(y=Cost))
 
 plot_grid(p1, p2, ncol=1) -> fig1
+
+#find most frequently dispensed drugs
+op_data %>%
+  group_by(Drug_name) %>% 
+  summarise(Items=sum(Items)) %>% 
+  ungroup() %>% 
+  arrange(-Items)-> frequency_of_drugs
+
+#find most expensive dispensed drugs
+op_data %>%
+  group_by(Drug_name) %>% 
+  summarise(Cost=sum(Cost)) %>% 
+  ungroup() %>% 
+  arrange(-Cost)-> high_cost_drugs
+
+#find single tablet dispensing
+op_data %>% 
+  filter(Quantity==1)->single_tablet
+

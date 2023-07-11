@@ -27,7 +27,7 @@ source ("Functions/get_openprescribing_data.R")
 
 ## TO-DO - get the actual list we are interested in.
 ## FOR NOW - here is a quick list
-codelist <-  openSafely_listR("user/polc1410/cancer-drugs/")
+codelist <-  openSafely_listR("user/chloewaterson/oral-sact/")
 
 # Before looping delete any existing object called op_data
 if (exists("op_data")) { rm(op_data) }
@@ -45,6 +45,7 @@ for (code in codelist$code) {
         # if op_data exists, add drug_result to it
         op_data <- rbind(op_data, drug_result)
     }
+    Sys.sleep(1)
 }
 
 # remove the drug_result (it is a temporary data set)
