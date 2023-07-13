@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -18,14 +18,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -39,8 +40,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="BOPA_Abstract_files/libs/clipboard/clipboard.min.js"></script>
@@ -92,58 +92,635 @@ div.csl-indent {
 <!--# Format of abstract: An abstract should start with an introduction to the background of the investigation and a clear statement of the aims/objectives of the work. A statement of the methods used should follow including, for example, numbers of subjects in the study and means of collection of data. Results should be clearly stated with, if appropriate, statistical support. The abstract should end with a discussion/conclusion. In general, the abstract should be informative and contain as much detail as possible. Note that references should be in Vancouver style. A maximum of 5 references will be allowed. -->
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Prescribing of Systemic Anti-Cancer Therapy (SACT) should be undertaken exclusively by prescribers with specialist training <span class="citation" data-cites="academy_of_medical_royal_colleges_achieving_2015">(<a href="#ref-academy_of_medical_royal_colleges_achieving_2015" role="doc-biblioref">Academy of Medical Royal Colleges 2015</a>)</span>. Booth <em>et al</em> <span class="citation" data-cites="booth_oral_2018">(<a href="#ref-booth_oral_2018" role="doc-biblioref">2018</a>)</span> reported that up to 90% of doctors in a hospital setting had difficulty identifying SACT medicines, which may pose a risk. The same difficulty may exist in primary care, causing SACT to inadvertently be prescribed by a patient’s General Practitioner (GP) or other members of the care team.</p>
+<p>Prescribing of Systemic Anti-Cancer Therapy (SACT) should be undertaken exclusively by prescribers with specialist training<span class="citation" data-cites="academy_of_medical_royal_colleges_achieving_2015"><sup><a href="#ref-academy_of_medical_royal_colleges_achieving_2015" role="doc-biblioref">1</a></sup></span>. Booth <em>et al</em><span class="citation" data-cites="booth_oral_2018"><sup><a href="#ref-booth_oral_2018" role="doc-biblioref">2</a></sup></span> reported that up to 90% of doctors in a hospital setting had difficulty identifying SACT medicines, which may pose a risk. The same difficulty may exist in primary care, causing SACT to inadvertently be prescribed by a patient’s General Practitioner (GP) or other members of the care team.</p>
 </section>
-<section id="aims-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="aims-objectives">Aims / Objectives</h2>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
 <!--#  Aims or objectives given are clear, concise and SMART -->
-<p>To create a openly accessible list of oral SACT which would not be expected to be routinely be prescribed in Primary Care.</p>
-<p>To quantify on how many occasions in the last 4 years (2019-2022) SACT has been prescribed and dispensed in a Primary Care setting in England.</p>
+<p>To create an openly accessible list of oral SACT which would not be expected to be routinely prescribed in Primary Care.</p>
+<p>To quantify on how many occasions in the last 4 years (2019-2022) SACT has been prescribed and dispensed in Primary Care in England.</p>
 <p>To report the financial expenditure associated with SACT dispensing in Primary Care, during the same time period.</p>
 <p>To describe any trend in the incidence of Primary Care prescribing of SACT over time.</p>
 </section>
 <section id="method" class="level2">
 <h2 class="anchored" data-anchor-id="method">Method</h2>
 <!--# Methodology fully explained and appropriate for objectives  -->
-<p>We developed an openly accessible code list<span class="citation" data-cites="waterson_chloe_oral_2023">(<a href="#ref-waterson_chloe_oral_2023" role="doc-biblioref">waterson, chloe 2023</a>)</span> of all oral SACT medicines that would not routinely be prescribed for non-cancer indications, developed using the World Health Organisation (WHO) Anatomical Therapeutic Chemical (ATC) Classification<span class="citation" data-cites="world_health_organisation_whocc_2023">(<a href="#ref-world_health_organisation_whocc_2023" role="doc-biblioref">World Health Organisation 2023</a>)</span> “L01” as a basis for medicines selection. This code list was used to search primary care dispensing activity from the NHS in England through the OpenPrescribing Application Programming Interface (API)<span class="citation" data-cites="bennett_institute_for_applied_data_science_university_of_oxford_openprescribingnet_2023">(<a href="#ref-bennett_institute_for_applied_data_science_university_of_oxford_openprescribingnet_2023" role="doc-biblioref">Bennett Institute for Applied Data Science, University of Oxford 2023</a>)</span> to obtain dispensing data from the previous 5 years. Descriptive statistics have been applied.</p>
-<p>The data-set being accessed is freely available to anyone who chooses to access it, containing only fully anonymised data; no ethical approval was therefore required.</p>
+<p>We developed an openly accessible code list<span class="citation" data-cites="waterson_chloe_oral_2023"><sup><a href="#ref-waterson_chloe_oral_2023" role="doc-biblioref">3</a></sup></span> of all oral SACT medicines that would not routinely be prescribed for non-cancer indications, developed using the World Health Organisation (WHO) Anatomical Therapeutic Chemical (ATC) Classification<span class="citation" data-cites="world_health_organisation_whocc_2023"><sup><a href="#ref-world_health_organisation_whocc_2023" role="doc-biblioref">4</a></sup></span> “L01” as a basis for medicines selection. This code list was used to search primary care dispensing activity from the NHS in England through the OpenPrescribing Application Programming Interface (API)<span class="citation" data-cites="bennett_institute_for_applied_data_science_university_of_oxford_openprescribingnet_2023"><sup><a href="#ref-bennett_institute_for_applied_data_science_university_of_oxford_openprescribingnet_2023" role="doc-biblioref">5</a></sup></span> to obtain dispensing data from the previous 5 years. Descriptive statistics have been applied.</p>
+<p>The data accessed is freely available online, containing only fully anonymised data; no ethical approval was therefore required.</p>
 </section>
 <section id="result" class="level2">
 <h2 class="anchored" data-anchor-id="result">Result</h2>
 <!--# Results and/or outcomes reported, related to all aims/objectives and discussed/justified fully and critically -->
 <!--# Wholly original, new evidence OR new methodology -->
 <!--# Significant service improvement and relevance. ALL members would be able to apply this work -->
-<p>There were a total of 981 occurrences of SACT being dispensed in Primary Care in England between 2019 and 2022, with a total expenditure of £1,009,524. This does not include additional payments for ‘Broken Bulk’.</p>
-<p>The most frequently prescribed drugs were: Enzalutamide, Tioguanine, Imatinib mesilate, Thalidomide (Immunomodulating), Chlorambucil. The highest costs were: £520,840 (Enzalutamide), £101,996 (Imatinib mesilate), £75,301 (Ruxolitinib), £65,938 (Abiraterone), £56,538 (Ibrutinib).</p>
-<p>On 74 (8%) occasions a single dose of SACT was dispensed.</p>
+<p>There were a total of 928 occurrences of SACT being dispensed in Primary Care in England between 2019 and 2022, with a total expenditure of £931,776. This does not include additional payments for ‘Broken Bulk’.</p>
+<p>The most frequently prescribed drugs were: Enzalutamide, Tioguanine, Imatinib mesilate, Thalidomide (Immunomodulating), Chlorambucil. The highest costs were: £520,840 (Enzalutamide), £101,996 (Imatinib mesilate), £65,938 (Abiraterone), £56,538 (Ibrutinib), £47,401 (Lenalidomide).</p>
+<p>On 159 (17%) occassions, fourteen doses of SACT or less were dispensed. Of these, 62 (7%) were single doses.</p>
+<p>Changes in dispensing between 2019 and 2022 are described in table 1.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="BOPA_Abstract_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+
+<div id="tgvshtsrfp" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#tgvshtsrfp table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#tgvshtsrfp thead, #tgvshtsrfp tbody, #tgvshtsrfp tfoot, #tgvshtsrfp tr, #tgvshtsrfp td, #tgvshtsrfp th {
+  border-style: none;
+}
+
+#tgvshtsrfp p {
+  margin: 0;
+  padding: 0;
+}
+
+#tgvshtsrfp .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#tgvshtsrfp .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#tgvshtsrfp .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#tgvshtsrfp .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#tgvshtsrfp .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#tgvshtsrfp .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#tgvshtsrfp .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#tgvshtsrfp .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#tgvshtsrfp .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#tgvshtsrfp .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#tgvshtsrfp .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#tgvshtsrfp .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#tgvshtsrfp .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#tgvshtsrfp .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#tgvshtsrfp .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#tgvshtsrfp .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#tgvshtsrfp .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#tgvshtsrfp .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#tgvshtsrfp .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#tgvshtsrfp .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#tgvshtsrfp .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#tgvshtsrfp .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#tgvshtsrfp .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#tgvshtsrfp .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#tgvshtsrfp .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#tgvshtsrfp .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#tgvshtsrfp .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#tgvshtsrfp .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#tgvshtsrfp .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#tgvshtsrfp .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#tgvshtsrfp .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#tgvshtsrfp .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#tgvshtsrfp .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#tgvshtsrfp .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#tgvshtsrfp .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#tgvshtsrfp .gt_left {
+  text-align: left;
+}
+
+#tgvshtsrfp .gt_center {
+  text-align: center;
+}
+
+#tgvshtsrfp .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#tgvshtsrfp .gt_font_normal {
+  font-weight: normal;
+}
+
+#tgvshtsrfp .gt_font_bold {
+  font-weight: bold;
+}
+
+#tgvshtsrfp .gt_font_italic {
+  font-style: italic;
+}
+
+#tgvshtsrfp .gt_super {
+  font-size: 65%;
+}
+
+#tgvshtsrfp .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#tgvshtsrfp .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#tgvshtsrfp .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#tgvshtsrfp .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#tgvshtsrfp .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#tgvshtsrfp .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#tgvshtsrfp .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <thead>
+    <tr class="gt_heading">
+      <td colspan="5" class="gt_heading gt_title gt_font_normal" style="">Top 20 drugs (by overall expenditure)</td>
+    </tr>
+    <tr class="gt_heading">
+      <td colspan="5" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="">Showing number of prescriptions processed and costs excluding broken bulk for years 2019 and 2020 vs 2021 and 2022</td>
+    </tr>
+    <tr class="gt_col_headings gt_spanner_row">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1" scope="col" id=""></th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="2" scope="colgroup" id="2019-2020">
+        <span class="gt_column_spanner">2019-2020</span>
+      </th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="2" scope="colgroup" id="2021-2022">
+        <span class="gt_column_spanner">2021-2022</span>
+      </th>
+    </tr>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Prescriptions">Prescriptions</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Cost">Cost</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Prescriptions">Prescriptions</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Cost">Cost</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><th id="stub_1_1" scope="row" class="gt_row gt_left gt_stub">Enzalutamide</th>
+<td headers="stub_1_1 n_2019-2020" class="gt_row gt_right">91</td>
+<td headers="stub_1_1 Cost_2019-2020" class="gt_row gt_right">£199,821</td>
+<td headers="stub_1_1 n_2021-2022" class="gt_row gt_right">138</td>
+<td headers="stub_1_1 Cost_2021-2022" class="gt_row gt_right">£321,018</td></tr>
+    <tr><th id="stub_1_2" scope="row" class="gt_row gt_left gt_stub">Imatinib mesilate</th>
+<td headers="stub_1_2 n_2019-2020" class="gt_row gt_right">83</td>
+<td headers="stub_1_2 Cost_2019-2020" class="gt_row gt_right">£57,150</td>
+<td headers="stub_1_2 n_2021-2022" class="gt_row gt_right">50</td>
+<td headers="stub_1_2 Cost_2021-2022" class="gt_row gt_right">£44,846</td></tr>
+    <tr><th id="stub_1_3" scope="row" class="gt_row gt_left gt_stub">Abiraterone</th>
+<td headers="stub_1_3 n_2019-2020" class="gt_row gt_right">34</td>
+<td headers="stub_1_3 Cost_2019-2020" class="gt_row gt_right">£55,828</td>
+<td headers="stub_1_3 n_2021-2022" class="gt_row gt_right">8</td>
+<td headers="stub_1_3 Cost_2021-2022" class="gt_row gt_right">£10,110</td></tr>
+    <tr><th id="stub_1_4" scope="row" class="gt_row gt_left gt_stub">Ibrutinib</th>
+<td headers="stub_1_4 n_2019-2020" class="gt_row gt_right">12</td>
+<td headers="stub_1_4 Cost_2019-2020" class="gt_row gt_right">£22,898</td>
+<td headers="stub_1_4 n_2021-2022" class="gt_row gt_right">14</td>
+<td headers="stub_1_4 Cost_2021-2022" class="gt_row gt_right">£33,640</td></tr>
+    <tr><th id="stub_1_5" scope="row" class="gt_row gt_left gt_stub">Lenalidomide</th>
+<td headers="stub_1_5 n_2019-2020" class="gt_row gt_right">11</td>
+<td headers="stub_1_5 Cost_2019-2020" class="gt_row gt_right">£28,449</td>
+<td headers="stub_1_5 n_2021-2022" class="gt_row gt_right">6</td>
+<td headers="stub_1_5 Cost_2021-2022" class="gt_row gt_right">£18,953</td></tr>
+    <tr><th id="stub_1_6" scope="row" class="gt_row gt_left gt_stub">Pomalidomide</th>
+<td headers="stub_1_6 n_2019-2020" class="gt_row gt_right">2</td>
+<td headers="stub_1_6 Cost_2019-2020" class="gt_row gt_right">£16,503</td>
+<td headers="stub_1_6 n_2021-2022" class="gt_row gt_right">0</td>
+<td headers="stub_1_6 Cost_2021-2022" class="gt_row gt_right">£0</td></tr>
+    <tr><th id="stub_1_7" scope="row" class="gt_row gt_left gt_stub">Tioguanine</th>
+<td headers="stub_1_7 n_2019-2020" class="gt_row gt_right">89</td>
+<td headers="stub_1_7 Cost_2019-2020" class="gt_row gt_right">£9,492</td>
+<td headers="stub_1_7 n_2021-2022" class="gt_row gt_right">74</td>
+<td headers="stub_1_7 Cost_2021-2022" class="gt_row gt_right">£6,208</td></tr>
+    <tr><th id="stub_1_8" scope="row" class="gt_row gt_left gt_stub">Thalidomide (Immunomodulating)</th>
+<td headers="stub_1_8 n_2019-2020" class="gt_row gt_right">34</td>
+<td headers="stub_1_8 Cost_2019-2020" class="gt_row gt_right">£8,706</td>
+<td headers="stub_1_8 n_2021-2022" class="gt_row gt_right">23</td>
+<td headers="stub_1_8 Cost_2021-2022" class="gt_row gt_right">£6,572</td></tr>
+    <tr><th id="stub_1_9" scope="row" class="gt_row gt_left gt_stub">Procarbazine hydrochloride</th>
+<td headers="stub_1_9 n_2019-2020" class="gt_row gt_right">27</td>
+<td headers="stub_1_9 Cost_2019-2020" class="gt_row gt_right">£7,636</td>
+<td headers="stub_1_9 n_2021-2022" class="gt_row gt_right">10</td>
+<td headers="stub_1_9 Cost_2021-2022" class="gt_row gt_right">£2,998</td></tr>
+    <tr><th id="stub_1_10" scope="row" class="gt_row gt_left gt_stub">Apalutamide</th>
+<td headers="stub_1_10 n_2019-2020" class="gt_row gt_right">0</td>
+<td headers="stub_1_10 Cost_2019-2020" class="gt_row gt_right">£0</td>
+<td headers="stub_1_10 n_2021-2022" class="gt_row gt_right">9</td>
+<td headers="stub_1_10 Cost_2021-2022" class="gt_row gt_right">£10,271</td></tr>
+    <tr><th id="stub_1_11" scope="row" class="gt_row gt_left gt_stub">Nilotinib</th>
+<td headers="stub_1_11 n_2019-2020" class="gt_row gt_right">4</td>
+<td headers="stub_1_11 Cost_2019-2020" class="gt_row gt_right">£2,320</td>
+<td headers="stub_1_11 n_2021-2022" class="gt_row gt_right">4</td>
+<td headers="stub_1_11 Cost_2021-2022" class="gt_row gt_right">£3,484</td></tr>
+    <tr><th id="stub_1_12" scope="row" class="gt_row gt_left gt_stub">Osimertinib</th>
+<td headers="stub_1_12 n_2019-2020" class="gt_row gt_right">0</td>
+<td headers="stub_1_12 Cost_2019-2020" class="gt_row gt_right">£0</td>
+<td headers="stub_1_12 n_2021-2022" class="gt_row gt_right">1</td>
+<td headers="stub_1_12 Cost_2021-2022" class="gt_row gt_right">£5,393</td></tr>
+    <tr><th id="stub_1_13" scope="row" class="gt_row gt_left gt_stub">Vandetanib</th>
+<td headers="stub_1_13 n_2019-2020" class="gt_row gt_right">0</td>
+<td headers="stub_1_13 Cost_2019-2020" class="gt_row gt_right">£0</td>
+<td headers="stub_1_13 n_2021-2022" class="gt_row gt_right">2</td>
+<td headers="stub_1_13 Cost_2021-2022" class="gt_row gt_right">£5,212</td></tr>
+    <tr><th id="stub_1_14" scope="row" class="gt_row gt_left gt_stub">Cabozantinib</th>
+<td headers="stub_1_14 n_2019-2020" class="gt_row gt_right">0</td>
+<td headers="stub_1_14 Cost_2019-2020" class="gt_row gt_right">£0</td>
+<td headers="stub_1_14 n_2021-2022" class="gt_row gt_right">1</td>
+<td headers="stub_1_14 Cost_2021-2022" class="gt_row gt_right">£4,811</td></tr>
+    <tr><th id="stub_1_15" scope="row" class="gt_row gt_left gt_stub">Estramustine phosphate</th>
+<td headers="stub_1_15 n_2019-2020" class="gt_row gt_right">10</td>
+<td headers="stub_1_15 Cost_2019-2020" class="gt_row gt_right">£4,774</td>
+<td headers="stub_1_15 n_2021-2022" class="gt_row gt_right">0</td>
+<td headers="stub_1_15 Cost_2021-2022" class="gt_row gt_right">£0</td></tr>
+    <tr><th id="stub_1_16" scope="row" class="gt_row gt_left gt_stub">Afatinib</th>
+<td headers="stub_1_16 n_2019-2020" class="gt_row gt_right">1</td>
+<td headers="stub_1_16 Cost_2019-2020" class="gt_row gt_right">£470</td>
+<td headers="stub_1_16 n_2021-2022" class="gt_row gt_right">2</td>
+<td headers="stub_1_16 Cost_2021-2022" class="gt_row gt_right">£3,781</td></tr>
+    <tr><th id="stub_1_17" scope="row" class="gt_row gt_left gt_stub">Tivozanib</th>
+<td headers="stub_1_17 n_2019-2020" class="gt_row gt_right">0</td>
+<td headers="stub_1_17 Cost_2019-2020" class="gt_row gt_right">£0</td>
+<td headers="stub_1_17 n_2021-2022" class="gt_row gt_right">2</td>
+<td headers="stub_1_17 Cost_2021-2022" class="gt_row gt_right">£3,834</td></tr>
+    <tr><th id="stub_1_18" scope="row" class="gt_row gt_left gt_stub">Palbociclib</th>
+<td headers="stub_1_18 n_2019-2020" class="gt_row gt_right">1</td>
+<td headers="stub_1_18 Cost_2019-2020" class="gt_row gt_right">£2,741</td>
+<td headers="stub_1_18 n_2021-2022" class="gt_row gt_right">2</td>
+<td headers="stub_1_18 Cost_2021-2022" class="gt_row gt_right">£1,048</td></tr>
+    <tr><th id="stub_1_19" scope="row" class="gt_row gt_left gt_stub">Capecitabine</th>
+<td headers="stub_1_19 n_2019-2020" class="gt_row gt_right">15</td>
+<td headers="stub_1_19 Cost_2019-2020" class="gt_row gt_right">£2,680</td>
+<td headers="stub_1_19 n_2021-2022" class="gt_row gt_right">4</td>
+<td headers="stub_1_19 Cost_2021-2022" class="gt_row gt_right">£821</td></tr>
+    <tr><th id="stub_1_20" scope="row" class="gt_row gt_left gt_stub">Trametinib</th>
+<td headers="stub_1_20 n_2019-2020" class="gt_row gt_right">2</td>
+<td headers="stub_1_20 Cost_2019-2020" class="gt_row gt_right">£3,271</td>
+<td headers="stub_1_20 n_2021-2022" class="gt_row gt_right">1</td>
+<td headers="stub_1_20 Cost_2021-2022" class="gt_row gt_right">£149</td></tr>
+    <tr><th id="stub_1_21" scope="row" class="gt_row gt_left gt_stub">Others</th>
+<td headers="stub_1_21 n_2019-2020" class="gt_row gt_right">103</td>
+<td headers="stub_1_21 Cost_2019-2020" class="gt_row gt_right">£16,215</td>
+<td headers="stub_1_21 n_2021-2022" class="gt_row gt_right">58</td>
+<td headers="stub_1_21 Cost_2021-2022" class="gt_row gt_right">£9,673</td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
 </div>
 </div>
 </section>
 <section id="discussion" class="level2">
 <h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
 <p>Our work identifies a worrying number of instances of dispensing oral SACT within Primary Care. The reasons for this cannot be determined from the publicly accessible data. It is not possible to determine what safety checks were initiated by either the prescribing or dispensing team to verify the suitability of the prescription. Furthermore, the work does not identify if there were further occurrences of prescribing which were stopped by intervention by community pharmacists.</p>
+<p>We observed an unexpected proportion of the dispensed items were in quantities of fourteen or less; suggesting possible emergency supplies. National guidance on the appropriateness of these kinds of supply would be beneficial.</p>
 <p>Our open access code list may provide a useful resource for NHS Primary Care Networks to search for any episodes of prescribing locally and review the reasons for this. We encourage all teams nationally to review their systems of work to determine if adequate safeguards are in place to prevent inadvertent prescribing in Primary Care.</p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-academy_of_medical_royal_colleges_achieving_2015" class="csl-entry" role="doc-biblioentry">
-Academy of Medical Royal Colleges. 2015. <span>“Achieving Safer Prescription of Cytotoxic Agents: <span>Academy</span> Recommendations.”</span> Academy of Medical Royal Colleges. <a href="https://web.archive.org/web/20160405112333/http://www.aomrc.org.uk/doc_download/9829-safer-prescription-of-cytotoxic-agents-v-2-april-2015.html">https://web.archive.org/web/20160405112333/http://www.aomrc.org.uk/doc_download/9829-safer-prescription-of-cytotoxic-agents-v-2-april-2015.html</a>.
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-academy_of_medical_royal_colleges_achieving_2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Academy of Medical Royal Colleges. Achieving safer prescription of cytotoxic agents: <span>Academy</span> recommendations, <a href="https://web.archive.org/web/20160405112333/http://www.aomrc.org.uk/doc_download/9829-safer-prescription-of-cytotoxic-agents-v-2-april-2015.html">https://web.archive.org/web/20160405112333/http://www.aomrc.org.uk/doc_download/9829-safer-prescription-of-cytotoxic-agents-v-2-april-2015.html</a> (2015).</div>
 </div>
-<div id="ref-bennett_institute_for_applied_data_science_university_of_oxford_openprescribingnet_2023" class="csl-entry" role="doc-biblioentry">
-Bennett Institute for Applied Data Science, University of Oxford. 2023. <span>“<span>OpenPrescribing</span>.net.”</span> <a href="https://openprescribing.net">https://openprescribing.net</a>.
+<div id="ref-booth_oral_2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Booth CD, Crawford SM, Jeyasangar G, et al. <a href="https://doi.org/10.1136/ejhpharm-2016-000891">Oral anticancer medicines in acute oncology; recognition by non-specialist clinicians and risk reduction measures</a>. <em>Eur J Hosp Pharm</em> 2018; 25: 204–206.</div>
 </div>
-<div id="ref-booth_oral_2018" class="csl-entry" role="doc-biblioentry">
-Booth, Carl D, S Michael Crawford, Ganesan Jeyasangar, and Rebecca Daykin. 2018. <span>“Oral Anticancer Medicines in Acute Oncology; Recognition by Non-Specialist Clinicians and Risk Reduction Measures.”</span> <em>Eur J Hosp Pharm</em> 25 (4): 204–6. <a href="https://doi.org/10.1136/ejhpharm-2016-000891">https://doi.org/10.1136/ejhpharm-2016-000891</a>.
+<div id="ref-waterson_chloe_oral_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Waterson, Chloe. Oral <span>SACT</span>: <span>Open</span> <span>Codelist</span>, <a href="https://www.opencodelists.org/codelist/user/chloewaterson/oral-sact">https://www.opencodelists.org/codelist/user/chloewaterson/oral-sact</a> (2023).</div>
 </div>
-<div id="ref-waterson_chloe_oral_2023" class="csl-entry" role="doc-biblioentry">
-waterson, chloe. 2023. <span>“Oral <span>SACT</span>: <span>Open</span> <span>Codelist</span>.”</span> Bennett Institute for Applied Data Science, Oxford: opencodelists.org. <a href="https://www.opencodelists.org/codelist/user/chloewaterson/oral-sact">https://www.opencodelists.org/codelist/user/chloewaterson/oral-sact</a>.
+<div id="ref-world_health_organisation_whocc_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">World Health Organisation. <span>WHOCC</span> - <span>ATC</span>/<span>DDD</span> <span>Index</span>. <em>WHO Collaborating Centre for Drug Statistics Methodology</em>, <a href="https://www.whocc.no/atc_ddd_index/">https://www.whocc.no/atc_ddd_index/</a> (2023, accessed July 9, 2023).</div>
 </div>
-<div id="ref-world_health_organisation_whocc_2023" class="csl-entry" role="doc-biblioentry">
-World Health Organisation. 2023. <span>“<span>WHOCC</span> - <span>ATC</span>/<span>DDD</span> <span>Index</span>.”</span> <em>WHO Collaborating Centre for Drug Statistics Methodology</em>. <a href="https://www.whocc.no/atc_ddd_index/">https://www.whocc.no/atc_ddd_index/</a>.
+<div id="ref-bennett_institute_for_applied_data_science_university_of_oxford_openprescribingnet_2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Bennett Institute for Applied Data Science, University of Oxford. <span>OpenPrescribing</span>.net, <a href="https://openprescribing.net">https://openprescribing.net</a> (2023).</div>
 </div>
 </div>
 </section>
@@ -177,9 +754,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -244,6 +835,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
