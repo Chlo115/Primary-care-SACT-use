@@ -25,9 +25,32 @@ source ("Functions/get_openprescribing_data.R")
 
 # We need to repeat that process for each drug we are interested in, and combine them together
 
-## TO-DO - get the actual list we are interested in.
-## FOR NOW - here is a quick list
+# Get the Open Code List
 codelist <-  openSafely_listR("user/chloewaterson/oral-sact/")
+
+# Code list will include child products. e.g. Capecitabine is the parent of
+# Capecitabine 150mg tablets and 500mg tablets.  It is also the parent of
+# Xeloda 150mg tablets and Xeloda 500mg tablets.
+# We only need to highest level of data for a drug
+# For a small number of drugs the highest level to be collected is a brand (e.g. Afinitor)
+
+codelist <- codelist %>%
+    mutate(grandparent_code = code, parent_code = code) %>%
+    separate_wider_position(grandparent_code, c(grandparent_code=9), too_many = "drop") %>%
+    mutate(is_grandparent = if_else(grandparent_code == code, TRUE, FALSE)) %>%
+    mutate(has_grandparent = grandparent_code %in% code) %>%
+    separate_wider_position(parent_code, c(parent_code=11), too_many = "drop", too_few= "align_start") %>%
+    mutate(is_parent = if_else(parent_code == code, TRUE, FALSE)) %>%
+    mutate(has_parent = parent_code %in% code)
+
+# Keep only - grandparents (is_grandparent) or parent with no grandaparent (is_parent and !has_grandparent)
+codelist <- codelist %>%
+    mutate(keep_data = case_when(
+        is_grandparent ~ T,
+        is_parent & !has_grandparent ~ T,
+        T ~ F
+    )) %>%
+    filter(keep_data == T)
 
 # Before looping delete any existing object called op_data
 if (exists("op_data")) { rm(op_data) }
