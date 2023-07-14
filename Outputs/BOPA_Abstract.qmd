@@ -76,11 +76,11 @@ t1
 
 ## Discussion
 
-Our work identifies a worrying number of instances of dispensing oral SACT within Primary Care. The reasons for this cannot be determined from the publicly accessible data. It is not possible to determine what safety checks were initiated by either the prescribing or dispensing team to verify the suitability of the prescription. Furthermore, the work does not identify if there were further occurrences of prescribing which were stopped by intervention by community pharmacists.
+Our work identifies a worrying number of instances of dispensing oral SACT within Primary Care. The reasons for this cannot be determined from the publicly accessible data. It is not possible to determine what safety checks were initiated by the prescribing or dispensing team to verify the suitability of the prescription. Furthermore, the work does not identify if there were further occurrences of prescribing which were stopped by intervention by community pharmacists.
 
-We observed an unexpected proportion of the dispensed items were in quantities of fourteen or less; suggesting possible emergency supplies. National guidance on the appropriateness of these kinds of supply would be beneficial.
+We observed an unexpected proportion of dispensed items in quantities of fourteen or less; suggesting possible emergency supplies. National guidance on the appropriateness of these kinds of supply would be beneficial.
 
-Our open access code list may provide a useful resource for NHS Primary Care Networks to search for any episodes of prescribing locally and review the reasons for this. We encourage all teams nationally to review their systems of work to determine if adequate safeguards are in place to prevent inadvertent prescribing in Primary Care.
+Our open access code list may provide a useful resource for NHS Primary Care Networks to search for episodes of prescribing locally and review the reasons for this. We encourage teams nationally to review their systems of work to determine if adequate safeguards are in place to prevent inadvertent prescribing in Primary Care.
 
 ## References
 
