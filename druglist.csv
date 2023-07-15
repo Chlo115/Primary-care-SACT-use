@@ -1,0 +1,293 @@
+ATC code,Name,DDD,U,Adm.R,Note,term,code,Dict_Type,DttmExtracted,parent_code,is_parent,has_parent,grandparent_code,is_grandparent,has_grandparent,keep_data
+L01AA01,cyclophosphamide,NA,NA,NA,NA,Cyclophosphamide,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AA02,chlorambucil,NA,NA,NA,NA,Chlorambucil,0801010F0,Not Specified,2023-07-12T23:06:29Z,0801010F0,TRUE,TRUE,0801010F0,TRUE,TRUE,TRUE
+L01AA03,melphalan,NA,NA,NA,NA,Melphalan,0801010S0,Not Specified,2023-07-12T23:06:29Z,0801010S0,TRUE,TRUE,0801010S0,TRUE,TRUE,TRUE
+L01AA05,chlormethine,NA,NA,NA,NA,Chlormethine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AA06,ifosfamide,NA,NA,NA,NA,Ifosfamide,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AA07,trofosfamide,NA,NA,NA,NA,Trofosfamide,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AA08,prednimustine,NA,NA,NA,NA,Prednimustine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AA09,bendamustine,NA,NA,NA,NA,Bendamustine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AA10,melphalan flufenamide,NA,NA,NA,NA,Melphalan Flufenamide,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AB01,busulfan,NA,NA,NA,NA,Busulfan,0801010B0,Not Specified,2023-07-12T23:06:29Z,0801010B0,TRUE,TRUE,0801010B0,TRUE,TRUE,TRUE
+L01AB02,treosulfan,NA,NA,NA,NA,Treosulfan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AB03,mannosulfan,NA,NA,NA,NA,Mannosulfan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AC01,thiotepa,NA,NA,NA,NA,Thiotepa,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AC02,triaziquone,NA,NA,NA,NA,Triaziquone,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AC03,carboquone,NA,NA,NA,NA,Carboquone,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AD01,carmustine,NA,NA,NA,NA,Carmustine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AD02,lomustine,NA,NA,NA,NA,Lomustine,0801010Q0,Not Specified,2023-07-12T23:06:29Z,0801010Q0,TRUE,TRUE,0801010Q0,TRUE,TRUE,TRUE
+L01AD03,semustine,NA,NA,NA,NA,Semustine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AD04,streptozocin,NA,NA,NA,NA,Streptozocin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AD05,fotemustine,NA,NA,NA,NA,Fotemustine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AD06,nimustine,NA,NA,NA,NA,Nimustine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AD07,ranimustine,NA,NA,NA,NA,Ranimustine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AD08,uramustine,NA,NA,NA,NA,Uramustine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AG01,etoglucid,NA,NA,NA,NA,Etoglucid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AX01,mitobronitol,NA,NA,NA,NA,Mitobronitol,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AX02,pipobroman,NA,NA,NA,NA,Pipobroman,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01AX03,temozolomide,NA,NA,NA,NA,Temozolomide,0801050Y0,Not Specified,2023-07-12T23:06:29Z,0801050Y0,TRUE,TRUE,0801050Y0,TRUE,TRUE,TRUE
+L01AX04,dacarbazine,NA,NA,NA,NA,Dacarbazine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BA01,methotrexate,NA,NA,NA,NA,Methotrexate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BA03,raltitrexed,NA,NA,NA,NA,Raltitrexed,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BA04,pemetrexed,NA,NA,NA,NA,Pemetrexed,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BA05,pralatrexate,NA,NA,NA,NA,Pralatrexate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BB02,mercaptopurine,NA,NA,NA,NA,Mercaptopurine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BB03,tioguanine,NA,NA,NA,NA,Tioguanine,0801030T0,Not Specified,2023-07-12T23:06:29Z,0801030T0,TRUE,TRUE,0801030T0,TRUE,TRUE,TRUE
+L01BB04,cladribine,NA,NA,NA,NA,Cladribine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BB05,fludarabine,NA,NA,NA,NA,Fludarabine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BB06,clofarabine,NA,NA,NA,NA,Clofarabine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BB07,nelarabine,NA,NA,NA,NA,Nelarabine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BC01,cytarabine,NA,NA,NA,NA,Cytarabine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BC02,fluorouracil,NA,NA,NA,NA,Fluorouracil,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BC03,tegafur,NA,NA,NA,NA,Tegafur,0801030S0,Not Specified,2023-07-12T23:06:29Z,0801030S0,TRUE,TRUE,0801030S0,TRUE,TRUE,TRUE
+L01BC04,carmofur,NA,NA,NA,NA,Carmofur,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BC05,gemcitabine,NA,NA,NA,NA,Gemcitabine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BC06,capecitabine,NA,NA,NA,NA,Capecitabine,0801030V0,Not Specified,2023-07-12T23:06:29Z,0801030V0,TRUE,TRUE,0801030V0,TRUE,TRUE,TRUE
+L01BC07,azacitidine,NA,NA,NA,NA,Azacitidine,0801030AC,Not Specified,2023-07-12T23:06:29Z,0801030AC,TRUE,TRUE,0801030AC,TRUE,TRUE,TRUE
+L01BC08,decitabine,NA,NA,NA,NA,Decitabine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BC09,floxuridine,NA,NA,NA,NA,Floxuridine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BC52,"fluorouracil, combinations",NA,NA,NA,NA,"Fluorouracil, Combinations",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BC53,"tegafur, combinations",NA,NA,NA,NA,"Tegafur, Combinations",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01BC59,"trifluridine, combinations",NA,NA,NA,NA,"Trifluridine, Combinations",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CA01,vinblastine,NA,NA,NA,NA,Vinblastine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CA02,vincristine,NA,NA,NA,NA,Vincristine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CA03,vindesine,NA,NA,NA,NA,Vindesine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CA04,vinorelbine,NA,NA,NA,NA,Vinorelbine,0801040R0,Not Specified,2023-07-12T23:06:29Z,0801040R0,TRUE,TRUE,0801040R0,TRUE,TRUE,TRUE
+L01CA05,vinflunine,NA,NA,NA,NA,Vinflunine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CA06,vintafolide,NA,NA,NA,NA,Vintafolide,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CB01,etoposide,NA,NA,NA,NA,Etoposide,0801040D0,Not Specified,2023-07-12T23:06:29Z,0801040D0,TRUE,TRUE,0801040D0,TRUE,TRUE,TRUE
+L01CB02,teniposide,NA,NA,NA,NA,Teniposide,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CC01,demecolcine,NA,NA,NA,NA,Demecolcine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CD01,paclitaxel,NA,NA,NA,NA,Paclitaxel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CD02,docetaxel,NA,NA,NA,NA,Docetaxel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CD03,paclitaxel poliglumex,NA,NA,NA,NA,Paclitaxel Poliglumex,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CD04,cabazitaxel,NA,NA,NA,NA,Cabazitaxel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CD51,paclitaxel and encequidar,NA,NA,NA,NA,Paclitaxel And Encequidar,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CE01,topotecan,NA,NA,NA,NA,Topotecan,0801050AF,Not Specified,2023-07-12T23:06:29Z,0801050AF,TRUE,TRUE,0801050AF,TRUE,TRUE,TRUE
+L01CE02,irinotecan,NA,NA,NA,NA,Irinotecan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CE03,etirinotecan pegol,NA,NA,NA,NA,Etirinotecan Pegol,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CE04,belotecan,NA,NA,NA,NA,Belotecan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01CX01,trabectedin,NA,NA,NA,NA,Trabectedin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DA01,dactinomycin,NA,NA,NA,NA,Dactinomycin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DB01,doxorubicin,NA,NA,NA,NA,Doxorubicin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DB02,daunorubicin,NA,NA,NA,NA,Daunorubicin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DB03,epirubicin,NA,NA,NA,NA,Epirubicin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DB04,aclarubicin,NA,NA,NA,NA,Aclarubicin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DB05,zorubicin,NA,NA,NA,NA,Zorubicin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DB06,idarubicin,NA,NA,NA,NA,Idarubicin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DB07,mitoxantrone,NA,NA,NA,NA,Mitoxantrone,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DB08,pirarubicin,NA,NA,NA,NA,Pirarubicin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DB09,valrubicin,NA,NA,NA,NA,Valrubicin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DB10,amrubicin,NA,NA,NA,NA,Amrubicin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DB11,pixantrone,NA,NA,NA,NA,Pixantrone,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DC01,bleomycin,NA,NA,NA,NA,Bleomycin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DC02,plicamycin,NA,NA,NA,NA,Plicamycin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DC03,mitomycin,NA,NA,NA,NA,Mitomycin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01DC04,ixabepilone,NA,NA,NA,NA,Ixabepilone,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EA01,imatinib,0.4,g,O,NA,Imatinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EA02,dasatinib,0.1,g,O,NA,Dasatinib,0801050AN,Not Specified,2023-07-12T23:06:29Z,0801050AN,TRUE,TRUE,0801050AN,TRUE,TRUE,TRUE
+L01EA03,nilotinib,0.6,g,O,NA,Nilotinib,0801050AS,Not Specified,2023-07-12T23:06:29Z,0801050AS,TRUE,TRUE,0801050AS,TRUE,TRUE,TRUE
+L01EA04,bosutinib,0.4,g,O,NA,Bosutinib,0801050BL,Not Specified,2023-07-12T23:06:29Z,0801050BL,TRUE,TRUE,0801050BL,TRUE,TRUE,TRUE
+L01EA05,ponatinib,45,mg,O,NA,Ponatinib,0801050BQ,Not Specified,2023-07-12T23:06:29Z,0801050BQ,TRUE,TRUE,0801050BQ,TRUE,TRUE,TRUE
+L01EA06,asciminib,NA,,,NA,Asciminib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EB01,gefitinib,0.25,g,O,NA,Gefitinib,0801050AW,Not Specified,2023-07-12T23:06:29Z,0801050AW,TRUE,TRUE,0801050AW,TRUE,TRUE,TRUE
+L01EB02,erlotinib,0.15,g,O,NA,Erlotinib,0801050AE,Not Specified,2023-07-12T23:06:29Z,0801050AE,TRUE,TRUE,0801050AE,TRUE,TRUE,TRUE
+L01EB03,afatinib,40,mg,O,NA,Afatinib,0801050BP,Not Specified,2023-07-12T23:06:29Z,0801050BP,TRUE,TRUE,0801050BP,TRUE,TRUE,TRUE
+L01EB04,osimertinib,80,mg,O,NA,Osimertinib,0801050CG,Not Specified,2023-07-12T23:06:29Z,0801050CG,TRUE,TRUE,0801050CG,TRUE,TRUE,TRUE
+L01EB05,rociletinib,NA,,,NA,Rociletinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EB06,olmutinib,NA,,,NA,Olmutinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EB07,dacomitinib,45,mg,O,NA,Dacomitinib,0801050CQ,Not Specified,2023-07-12T23:06:29Z,0801050CQ,TRUE,TRUE,0801050CQ,TRUE,TRUE,TRUE
+L01EB08,icotinib,NA,,,NA,Icotinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EB09,lazertinib,NA,,,NA,Lazertinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EB10,mobocertinib,NA,,,NA,Mobocertinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EB11,aumolertinib,NA,,,NA,Aumolertinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EC01,vemurafenib,1.92,g,O,NA,Vemurafenib,0801050BD,Not Specified,2023-07-12T23:06:29Z,0801050BD,TRUE,TRUE,0801050BD,TRUE,TRUE,TRUE
+L01EC02,dabrafenib,0.3,g,O,NA,Dabrafenib,0802040AI,Not Specified,2023-07-12T23:06:29Z,0802040AI,TRUE,TRUE,0802040AI,TRUE,TRUE,TRUE
+L01EC03,encorafenib,0.45,g,O,NA,Encorafenib,0801050CM,Not Specified,2023-07-12T23:06:29Z,0801050CM,TRUE,TRUE,0801050CM,TRUE,TRUE,TRUE
+L01ED01,crizotinib,0.5,g,O,NA,Crizotinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01ED02,ceritinib,0.45,g,O,NA,Ceritinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01ED03,alectinib,1.2,g,O,NA,Alectinib,0801050CD,Not Specified,2023-07-12T23:06:29Z,0801050CD,TRUE,TRUE,0801050CD,TRUE,TRUE,TRUE
+L01ED04,brigatinib,0.18,g,O,NA,Brigatinib,0801050CP,Not Specified,2023-07-12T23:06:29Z,0801050CP,TRUE,TRUE,0801050CP,TRUE,TRUE,TRUE
+L01ED05,lorlatinib,0.1,g,O,NA,Lorlatinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EE01,trametinib,2,mg,O,NA,Trametinib,0801050CH,Not Specified,2023-07-12T23:06:29Z,0801050CH,TRUE,TRUE,0801050CH,TRUE,TRUE,TRUE
+L01EE02,cobimetinib,45,mg,O,NA,Cobimetinib,0801050CI,Not Specified,2023-07-12T23:06:29Z,0801050CI,TRUE,TRUE,0801050CI,TRUE,TRUE,TRUE
+L01EE03,binimetinib,90,mg,O,NA,Binimetinib,0801050CN,Not Specified,2023-07-12T23:06:29Z,0801050CN,TRUE,TRUE,0801050CN,TRUE,TRUE,TRUE
+L01EE04,selumetinib,NA,,,NA,Selumetinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EF01,palbociclib,94,mg,O,NA,Palbociclib,0801050CB,Not Specified,2023-07-12T23:06:29Z,0801050CB,TRUE,TRUE,0801050CB,TRUE,TRUE,TRUE
+L01EF02,ribociclib,0.45,g,O,NA,Ribociclib,0801050CR,Not Specified,2023-07-12T23:06:29Z,0801050CR,TRUE,TRUE,0801050CR,TRUE,TRUE,TRUE
+L01EF03,abemaciclib,0.3,g,O,NA,Abemaciclib,0801050CL,Not Specified,2023-07-12T23:06:29Z,0801050CL,TRUE,TRUE,0801050CL,TRUE,TRUE,TRUE
+L01EG01,temsirolimus,3.57,mg,P,NA,Temsirolimus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EG02,everolimus,10,mg,O,NA,Everolimus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EG03,ridaforolimus,NA,,,NA,Ridaforolimus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EG04,sirolimus,NA,,,NA,Sirolimus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EH01,lapatinib,1.25,g,O,NA,Lapatinib,0801050AT,Not Specified,2023-07-12T23:06:29Z,0801050AT,TRUE,TRUE,0801050AT,TRUE,TRUE,TRUE
+L01EH02,neratinib,0.24,g,O,NA,Neratinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EH03,tucatinib,0.6,g,O,NA,Tucatinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EJ01,ruxolitinib,30,mg,O,NA,Ruxolitinib,0801050BI,Not Specified,2023-07-12T23:06:29Z,0801050BI,TRUE,TRUE,0801050BI,TRUE,TRUE,TRUE
+L01EJ02,fedratinib,0.4,g,O,NA,Fedratinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EJ03,pacritinib,NA,,,NA,Pacritinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EK01,axitinib,10,mg,O,NA,Axitinib,0801050BJ,Not Specified,2023-07-12T23:06:29Z,0801050BJ,TRUE,TRUE,0801050BJ,TRUE,TRUE,TRUE
+L01EK02,cediranib,NA,,,NA,Cediranib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EK03,tivozanib,1,mg,O,NA,Tivozanib,0802040BA,Not Specified,2023-07-12T23:06:29Z,0802040BA,TRUE,TRUE,0802040BA,TRUE,TRUE,TRUE
+L01EL01,ibrutinib,0.42,g,O,NA,Ibrutinib,0801050BS,Not Specified,2023-07-12T23:06:29Z,0801050BS,TRUE,TRUE,0801050BS,TRUE,TRUE,TRUE
+L01EL02,acalabrutinib,0.2,g,O,NA,Acalabrutinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EL03,zanubrutinib,0.32,g,O,NA,Zanubrutinib,0801050CS,Not Specified,2023-07-12T23:06:29Z,0801050CS,TRUE,TRUE,0801050CS,TRUE,TRUE,TRUE
+L01EM01,idelalisib,0.3,g,O,NA,Idelalisib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EM02,copanlisib,6.43,mg,P,NA,Copanlisib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EM03,alpelisib,0.3,g,O,NA,Alpelisib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EM04,duvelisib,50,mg,O,NA,Duvelisib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EM05,parsaclisib,NA,,,NA,Parsaclisib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EN01,erdafitinib,9,mg,O,NA,Erdafitinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EN02,pemigatinib,9,mg,O,NA,Pemigatinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EN03,infigratinib,NA,,,NA,Infigratinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EN04,futibatinib,NA,,,NA,Futibatinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX01,sunitinib,33,mg,O,NA,Sunitinib,0801050AM,Not Specified,2023-07-12T23:06:29Z,0801050AM,TRUE,TRUE,0801050AM,TRUE,TRUE,TRUE
+L01EX02,sorafenib,0.8,g,O,NA,Sorafenib,0801050AJ,Not Specified,2023-07-12T23:06:29Z,0801050AJ,TRUE,TRUE,0801050AJ,TRUE,TRUE,TRUE
+L01EX03,pazopanib,0.8,g,O,NA,Pazopanib,0801050AZ,Not Specified,2023-07-12T23:06:29Z,0801050AZ,TRUE,TRUE,0801050AZ,TRUE,TRUE,TRUE
+L01EX04,vandetanib,0.3,g,O,NA,Vandetanib,0801050BG,Not Specified,2023-07-12T23:06:29Z,0801050BG,TRUE,TRUE,0801050BG,TRUE,TRUE,TRUE
+L01EX05,regorafenib,0.12,g,O,NA,Regorafenib,0801050BN,Not Specified,2023-07-12T23:06:29Z,0801050BN,TRUE,TRUE,0801050BN,TRUE,TRUE,TRUE
+L01EX06,masitinib,NA,,,NA,Masitinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX07,cabozantinib,60,mg,O,NA,Cabozantinib,0801050BR,Not Specified,2023-07-12T23:06:29Z,0801050BR,TRUE,TRUE,0801050BR,TRUE,TRUE,TRUE
+L01EX08,lenvatinib,18,mg,O,NA,Lenvatinib,0801050BV,Not Specified,2023-07-12T23:06:29Z,0801050BV,TRUE,TRUE,0801050BV,TRUE,TRUE,TRUE
+L01EX09,nintedanib,0.38,g,O,NA,Nintedanib,0801050BT,Not Specified,2023-07-12T23:06:29Z,0801050BT,TRUE,TRUE,0801050BT,TRUE,TRUE,TRUE
+L01EX10,midostaurin,0.1,g,O,NA,Midostaurin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX11,quizartinib,NA,,,NA,Quizartinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX12,larotrectinib,0.2,g,O,NA,Larotrectinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX13,gilteritinib,0.12,g,O,NA,Gilteritinib,0801030AG,Not Specified,2023-07-12T23:06:29Z,0801030AG,TRUE,TRUE,0801030AG,TRUE,TRUE,TRUE
+L01EX14,entrectinib,0.6,g,O,NA,Entrectinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX15,pexidartinib,0.8,g,O,NA,Pexidartinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX17,capmatinib,0.8,g,O,NA,Capmatinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX18,avapritinib,0.3,g,O,NA,Avapritinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX19,ripretinib,0.15,g,O,NA,Ripretinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX21,tepotinib,NA,,,NA,Tepotinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX22,selpercatinib,0.32,g,O,NA,Selpercatinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX23,pralsetinib,0.4,g,O,NA,Pralsetinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX24,surufatinib,NA,,,NA,Surufatinib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01EX25,umbralisib,NA,,,NA,Umbralisib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FA01,rituximab,NA,NA,NA,NA,Rituximab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FA02,ofatumumab,NA,NA,NA,NA,Ofatumumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FA03,obinutuzumab,NA,NA,NA,NA,Obinutuzumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FB01,inotuzumab ozogamicin,NA,NA,NA,NA,Inotuzumab Ozogamicin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FB02,moxetumomab pasudotox,NA,NA,NA,NA,Moxetumomab Pasudotox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FC01,daratumumab,NA,NA,NA,NA,Daratumumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FC02,isatuximab,NA,NA,NA,NA,Isatuximab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FD01,trastuzumab,NA,NA,NA,NA,Trastuzumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FD02,pertuzumab,NA,NA,NA,NA,Pertuzumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FD03,trastuzumab emtansine,NA,NA,NA,NA,Trastuzumab Emtansine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FD04,trastuzumab deruxtecan,NA,NA,NA,NA,Trastuzumab Deruxtecan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FD05,trastuzumab duocarmazine,NA,NA,NA,NA,Trastuzumab Duocarmazine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FD06,margetuximab,NA,NA,NA,NA,Margetuximab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FE01,cetuximab,NA,NA,NA,NA,Cetuximab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FE02,panitumumab,NA,NA,NA,NA,Panitumumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FE03,necitumumab,NA,NA,NA,NA,Necitumumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FF01,nivolumab,NA,NA,NA,NA,Nivolumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FF02,pembrolizumab,NA,NA,NA,NA,Pembrolizumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FF03,durvalumab,NA,NA,NA,NA,Durvalumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FF04,avelumab,NA,NA,NA,NA,Avelumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FF05,atezolizumab,NA,NA,NA,NA,Atezolizumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FF06,cemiplimab,NA,NA,NA,NA,Cemiplimab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FF07,dostarlimab,NA,NA,NA,NA,Dostarlimab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FF08,prolgolimab,NA,NA,NA,NA,Prolgolimab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FF09,tislelizumab,NA,NA,NA,NA,Tislelizumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FF10,retifanlimab,NA,NA,NA,NA,Retifanlimab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FG01,bevacizumab,NA,NA,NA,NA,Bevacizumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FG02,ramucirumab,NA,NA,NA,NA,Ramucirumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX01,edrecolomab,NA,NA,NA,NA,Edrecolomab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX02,gemtuzumab ozogamicin,NA,NA,NA,NA,Gemtuzumab Ozogamicin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX03,catumaxomab,NA,NA,NA,NA,Catumaxomab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX04,ipilimumab,NA,NA,NA,NA,Ipilimumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX05,brentuximab vedotin,NA,NA,NA,NA,Brentuximab Vedotin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX06,dinutuximab beta,NA,NA,NA,NA,Dinutuximab Beta,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX07,blinatumomab,NA,NA,NA,NA,Blinatumomab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX08,elotuzumab,NA,NA,NA,NA,Elotuzumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX09,mogamulizumab,NA,NA,NA,NA,Mogamulizumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX10,olaratumab,NA,NA,NA,NA,Olaratumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX11,bermekimab,NA,NA,NA,NA,Bermekimab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX12,tafasitamab,NA,NA,NA,NA,Tafasitamab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX13,enfortumab vedotin,NA,NA,NA,NA,Enfortumab Vedotin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX14,polatuzumab vedotin,NA,NA,NA,NA,Polatuzumab Vedotin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX15,belantamab mafodotin,NA,NA,NA,NA,Belantamab Mafodotin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX16,oportuzumab monatox,NA,NA,NA,NA,Oportuzumab Monatox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX17,sacituzumab govitecan,NA,NA,NA,NA,Sacituzumab Govitecan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX18,amivantamab,NA,NA,NA,NA,Amivantamab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX19,sabatolimab,NA,NA,NA,NA,Sabatolimab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX20,tremelimumab,NA,NA,NA,NA,Tremelimumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX21,naxitamab,NA,NA,NA,NA,Naxitamab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX22,loncastuximab tesirine,NA,NA,NA,NA,Loncastuximab Tesirine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01FX23,tisotumab vedotin,NA,NA,NA,NA,Tisotumab Vedotin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XA01,cisplatin,NA,NA,NA,NA,Cisplatin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XA02,carboplatin,NA,NA,NA,NA,Carboplatin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XA03,oxaliplatin,NA,NA,NA,NA,Oxaliplatin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XA04,satraplatin,NA,NA,NA,NA,Satraplatin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XA05,polyplatillen,NA,NA,NA,NA,Polyplatillen,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XB01,procarbazine,NA,NA,NA,NA,Procarbazine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XD01,porfimer sodium,NA,NA,NA,NA,Porfimer Sodium,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XD03,methyl aminolevulinate,NA,NA,NA,NA,Methyl Aminolevulinate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XD04,aminolevulinic acid,NA,NA,NA,NA,Aminolevulinic Acid,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XD05,temoporfin,NA,NA,NA,NA,Temoporfin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XD06,efaproxiral,NA,NA,NA,NA,Efaproxiral,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XD07,padeliporfin,NA,NA,NA,NA,Padeliporfin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XF01,tretinoin,NA,NA,NA,NA,Tretinoin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XF02,alitretinoin,NA,NA,NA,NA,Alitretinoin,0801050Z0,Not Specified,2023-07-12T23:06:29Z,0801050Z0,TRUE,TRUE,0801050Z0,TRUE,TRUE,TRUE
+L01XF03,bexarotene,NA,NA,NA,NA,Bexarotene,0801050AB,Not Specified,2023-07-12T23:06:29Z,0801050AB,TRUE,TRUE,0801050AB,TRUE,TRUE,TRUE
+L01XG01,bortezomib,NA,NA,NA,NA,Bortezomib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XG02,carfilzomib,NA,NA,NA,NA,Carfilzomib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XG03,ixazomib,NA,NA,NA,NA,Ixazomib,0801050CC,Not Specified,2023-07-12T23:06:29Z,0801050CC,TRUE,TRUE,0801050CC,TRUE,TRUE,TRUE
+L01XH01,vorinostat,NA,NA,NA,NA,Vorinostat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XH02,romidepsin,NA,NA,NA,NA,Romidepsin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XH03,panobinostat,NA,NA,NA,NA,Panobinostat,0801050BW,Not Specified,2023-07-12T23:06:29Z,0801050BW,TRUE,TRUE,0801050BW,TRUE,TRUE,TRUE
+L01XH04,belinostat,NA,NA,NA,NA,Belinostat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XH05,entinostat,NA,NA,NA,NA,Entinostat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XJ01,vismodegib,NA,NA,NA,NA,Vismodegib,0801050BM,Not Specified,2023-07-12T23:06:29Z,0801050BM,TRUE,TRUE,0801050BM,TRUE,TRUE,TRUE
+L01XJ02,sonidegib,NA,NA,NA,NA,Sonidegib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XJ03,glasdegib,NA,NA,NA,NA,Glasdegib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XK01,olaparib,NA,NA,NA,NA,Olaparib,0801050BY,Not Specified,2023-07-12T23:06:29Z,0801050BY,TRUE,TRUE,0801050BY,TRUE,TRUE,TRUE
+L01XK02,niraparib,NA,NA,NA,NA,Niraparib,0801050CJ,Not Specified,2023-07-12T23:06:29Z,0801050CJ,TRUE,TRUE,0801050CJ,TRUE,TRUE,TRUE
+L01XK03,rucaparib,NA,NA,NA,NA,Rucaparib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XK04,talazoparib,NA,NA,NA,NA,Talazoparib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XK05,veliparib,NA,NA,NA,NA,Veliparib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XK06,pamiparib,NA,NA,NA,NA,Pamiparib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XL01,sitimagene ceradenovec,NA,NA,NA,NA,Sitimagene Ceradenovec,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XL02,talimogene laherparepvec,NA,NA,NA,NA,Talimogene Laherparepvec,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XL03,axicabtagene ciloleucel,NA,NA,NA,NA,Axicabtagene Ciloleucel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XL04,tisagenlecleucel,NA,NA,NA,NA,Tisagenlecleucel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XL05,ciltacabtagene autoleucel,NA,NA,NA,NA,Ciltacabtagene Autoleucel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XL06,brexucabtagene autoleucel,NA,NA,NA,NA,Brexucabtagene Autoleucel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XL07,idecabtagene vicleucel,NA,NA,NA,NA,Idecabtagene Vicleucel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX01,amsacrine,NA,NA,NA,NA,Amsacrine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX02,asparaginase,NA,NA,NA,NA,Asparaginase,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX03,altretamine,NA,NA,NA,NA,Altretamine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX05,hydroxycarbamide,NA,NA,NA,NA,Hydroxycarbamide,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX07,lonidamine,NA,NA,NA,NA,Lonidamine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX08,pentostatin,NA,NA,NA,NA,Pentostatin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX10,masoprocol,NA,NA,NA,NA,Masoprocol,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX11,estramustine,NA,NA,NA,NA,Estramustine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX16,mitoguazone,NA,NA,NA,NA,Mitoguazone,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX18,tiazofurine,NA,NA,NA,NA,Tiazofurine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX23,mitotane,NA,NA,NA,NA,Mitotane,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX24,pegaspargase,NA,NA,NA,NA,Pegaspargase,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX27,arsenic trioxide,NA,NA,NA,NA,Arsenic Trioxide,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX29,denileukin diftitox,NA,NA,NA,NA,Denileukin Diftitox,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX33,celecoxib,NA,NA,NA,NA,Celecoxib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX35,anagrelide,NA,NA,NA,NA,Anagrelide,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX36,oblimersen,NA,NA,NA,NA,Oblimersen,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX40,omacetaxine mepesuccinate,NA,NA,NA,NA,Omacetaxine Mepesuccinate,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX41,eribulin,NA,NA,NA,NA,Eribulin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX44,aflibercept,NA,NA,NA,NA,Aflibercept,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX52,venetoclax,NA,NA,NA,NA,Venetoclax,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX53,vosaroxin,NA,NA,NA,NA,Vosaroxin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX57,plitidepsin,NA,NA,NA,NA,Plitidepsin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX58,epacadostat,NA,NA,NA,NA,Epacadostat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX59,enasidenib,NA,NA,NA,NA,Enasidenib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX62,ivosidenib,NA,NA,NA,NA,Ivosidenib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX66,selinexor,NA,NA,NA,NA,Selinexor,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX67,tagraxofusp,NA,NA,NA,NA,Tagraxofusp,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX69,lurbinectedin,NA,NA,NA,NA,Lurbinectedin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX72,tazemetostat,NA,NA,NA,NA,Tazemetostat,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX73,sotorasib,NA,NA,NA,NA,Sotorasib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX74,belzutifan,NA,NA,NA,NA,Belzutifan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX75,tebentafusp,NA,NA,NA,NA,Tebentafusp,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XX77,adagrasib,NA,NA,NA,NA,Adagrasib,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XY01,cytarabine and daunorubicin,NA,NA,NA,NA,Cytarabine And Daunorubicin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XY02,pertuzumab and trastuzumab,NA,NA,NA,NA,Pertuzumab And Trastuzumab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+L01XY03,nivolumab and relatlimab,NA,NA,NA,NA,Nivolumab And Relatlimab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
