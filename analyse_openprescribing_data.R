@@ -48,6 +48,11 @@ op_data %>%
   ungroup() %>%
   arrange(-Cost)-> high_cost_drugs
 
+#find median, minimum and maximum cost per prescription
+median_cost <- median(op_data$Cost) 
+max_cost <- max(op_data$Cost)
+min_cost <- min(op_data$Cost)
+
 #find single tablet dispensing
 op_data %>%
   filter(Quantity==1)->single_tablet

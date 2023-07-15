@@ -60,11 +60,11 @@ The data accessed is freely available online, containing only fully anonymised d
 
 <!--# Significant service improvement and relevance. ALL members would be able to apply this work -->
 
-There were a total of `r formatC(total_items, big.mark=",")` occurrences of SACT being dispensed in Primary Care in England between 2019 and 2022, with a total expenditure of `r scales::dollar(total_cost, prefix="£", big.mark=",")`. This does not include additional payments for 'Broken Bulk'.
+There were a total of `r formatC(total_items, big.mark=",")` occurrences of SACT being dispensed in Primary Care in England between 2019 and 2022, with a total expenditure of `r scales::dollar(total_cost, prefix="£", big.mark=",")`. The median cost per prescription was `r scales::dollar(median_cost, prefix="£")` (Range: `r paste(scales::dollar(prefix="£",min_cost))`-`r paste(scales::dollar(prefix="£",max_cost))`). This does not include additional payments for 'Broken Bulk'.
 
-The most frequently prescribed drugs were: `r paste(frequency_of_drugs$Drug_name[1:5], collapse = ", ")`. The highest costs were: `r paste(paste0(scales::dollar(high_cost_drugs$Cost[1:5],big.mark=",", prefix="£"), " (",high_cost_drugs$Drug_name[1:5], ")"), collapse = ", ")`.
+The most frequently prescribed drugs were `r paste(frequency_of_drugs$Drug_name[1:5], collapse = ", ")`. The highest costs were: `r paste(paste0(scales::dollar(high_cost_drugs$Cost[1:5],big.mark=",", prefix="£"), " (",high_cost_drugs$Drug_name[1:5], ")"), collapse = ", ")`.
 
-On `r sum(small_quantity_tablet$Items)` (`r scales::percent(sum(small_quantity_tablet$Items)/total_items)`) occassions, fourteen doses of SACT or less were dispensed. Of these, `r sum(single_tablet$Items)` (`r scales::percent(sum(single_tablet$Items)/total_items)`) were single doses.
+On `r sum(small_quantity_tablet$Items)` (`r scales::percent(sum(small_quantity_tablet$Items)/total_items)`) occasions, fourteen doses of SACT or less were dispensed. Of these, `r sum(single_tablet$Items)` (`r scales::percent(sum(single_tablet$Items)/total_items)`) were single doses.
 
 Changes in dispensing between 2019 and 2022 are described in table 1.
 
