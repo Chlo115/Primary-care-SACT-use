@@ -3,15 +3,15 @@
 #' It has been heavily commented to make it more readable. Anything on a line begging
 #' with a # symbol is a comment and is ignored.
 #'
-#' The data in this is purely for demonstration purposes and it is simplified to 
+#' The data in this is purely for demonstration purposes and it is simplified to
 #' produce a single map. If you wanted our original code
 #' check out:  http://dx.doi.org/10.13140/RG.2.2.12924.77446
-#' 
+#'
 #' First - load up some required packages
 #' If these don't load they need installed in the R instance using: install.packages("packageName")
 #'
 require(sf)
-require(rgdal)
+require(rgdal)    # Some of these may not actually be needed now
 require(ggplot2)
 require(rgeos)
 require(broom)
@@ -34,7 +34,7 @@ require(tidyr)
 #   url = downloadLink,
 #   httr::write_disk(file.path("MapShape/MapShape.zip"), overwrite = T)
 # )
-# 
+#
 # unzip("../MapShape/MapShape.zip", exdir="MapShape")
 
 #' This is a defintion of the geography of the cancer alliances
@@ -47,7 +47,7 @@ shapefile <-
 mapdata_ICB<- #tidy(shapefile, region = "cal19nm")
 sf::st_as_sf(shapefile)
 #' Create some data to plot on the map (you could read a CSV file here etc)
-#' 
+#'
 
 #assume already have code to create Year_data
 Year_data |>
@@ -66,7 +66,7 @@ mapdata_subICB |>
 
 mapdata_subICB |>
   select(ICB,subICB) -> ICBnames
-  
+
 spend_by_subICB|>
   dplyr::left_join(ICBnames, by=c("OrgId"="subICB")) -> spend_by_subICB
 
@@ -90,47 +90,50 @@ df|>
     T~Total_spend
   )) -> df
 
-#' Create the left hand side map.  Maps are in fact "graphs" and produced using a package 
+#' Create the left hand side map.  Maps are in fact "graphs" and produced using a package
 #' called ggplot - its powerful but a little complex to explain...
 
 # plot1 <- ggplot() + geom_polygon(
 #     data = df, aes(
-#       x = long, 
-#       y = lat, 
-#       #group = group, 
-#       fill = Value), 
-#     color = "#004D40", 
+#       x = long,
+#       y = lat,
+#       #group = group,
+#       fill = Value),
+#     color = "#004D40",
 #     size = 0.5)
 
 plot1 <- df |>
   ggplot()+
   geom_sf(aes(fill=Total_spend))
-  
 
-#' Set the X and Y axes as fixed so the map doesn't get squashed 
+
+#' Set the X and Y axes as fixed so the map doesn't get squashed
 #plot1 <- plot1 + coord_fixed(1)
 
 #' Remove all the extra bits you'd expect on a graph like X and Y axis
 plot1 <- plot1 + theme_void()
-plot1 <- plot1 + theme(panel.grid.major = element_blank(), 
-                       panel.grid.minor = element_blank(), 
+plot1 <- plot1 + theme(panel.grid.major = element_blank(),
+                       panel.grid.minor = element_blank(),
+                       # Put the legend at the bottom
                        legend.position = 'bottom')
-plot1 <- plot1 + theme(axis.title.x=element_blank(), 
-                       axis.text.x = element_blank(), 
+plot1 <- plot1 + theme(axis.title.x=element_blank(),
+                       axis.text.x = element_blank(),
                        axis.ticks.x = element_blank())
-plot1 <- plot1 + theme(axis.title.y=element_blank(), 
-                       axis.text.y = element_blank(), 
+plot1 <- plot1 + theme(axis.title.y=element_blank(),
+                       axis.text.y = element_blank(),
                        axis.ticks.y = element_blank())
 
+# Set the legened scale - White to Dark Grey
 plot1 <- plot1 + scale_fill_gradient(low="white",high=rgb(45/255,60/255,80/255),
                                      breaks=c(0,20000,40000,60000,80000),
                                      labels=c("£0","£20K","£40K","£60K","£80K"))
 
+# Set a legend label
 plot1 <- plot1 + labs(fill="Expenditure by ICB\n")
-
+# in white
 plot1 <- plot1 + theme(legend.text=element_text(color="white"),legend.title=element_text(color="white"))
 
 print(plot1)
 
-ggsave("Spend_map.svg")
+ggsave("Outputs/Spend_map.svg")
 
